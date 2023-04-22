@@ -42,9 +42,7 @@ def stream_file_lines(filename, p):
     for obj in arr_dict:
         
         print(obj)
-        m = json.dumps(obj)
-       
-        #p.send('ssh_topic', key='', value=obj)
+        p.send('ssh', key='', value=obj)
    
         # This adjusts the rate at which the data is sent. Use a slower rate for testing your code.
         sleep(1)
@@ -53,7 +51,7 @@ def stream_file_lines(filename, p):
 producer = KafkaProducer(
     bootstrap_servers=['localhost:9092'],
     api_version=(0,11,5),
-    value_serializer=lambda x: dumps(x).encode('utf-8'),
+    value_serializer=lambda x: json.dumps(x).encode('utf-8'),
     key_serializer=lambda x: x.encode('utf-8')
 )
 
