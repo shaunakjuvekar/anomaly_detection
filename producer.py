@@ -170,8 +170,6 @@ def to_dict(filename):
             # }
 
             if parsed_data := parser.parse(line):
-                if parsed_data is None:
-                    print("asdadasd")
                 arr_dict.append(parsed_data)
 
     return arr_dict
