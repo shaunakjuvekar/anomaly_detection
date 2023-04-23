@@ -2,17 +2,15 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670673346.0,24200,webmaster,173.234.31.186,0,0,reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [173.234.31.186] failed - POSSIBLE BREAK-IN ATTEMPT! -- Invalid user webmaster from 173.234.31.186,break_in_attempt
 1670673346.0,24200,,173.234.31.186,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=173.234.31.186 ,auth_failure
 1670673348.0,24200,webmaster,173.234.31.186,0,0,Failed password for invalid user webmaster from 173.234.31.186 port 38926 ssh2,failed_password
-1670674058.0,24206,test9,52.80.34.196,0,0,Invalid user test9 from 52.80.34.196,no label
 1670674065.0,24206,test9,52.80.34.196,0,0,Failed password for invalid user test9 from 52.80.34.196 port 36060 ssh2,failed_password
 1670674108.0,24208,webmaster,173.234.31.186,0,0,reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [173.234.31.186] failed - POSSIBLE BREAK-IN ATTEMPT! -- Invalid user webmaster from 173.234.31.186,break_in_attempt
 1670674108.0,24208,,173.234.31.186,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=173.234.31.186 ,auth_failure
 1670674110.0,24208,webmaster,173.234.31.186,0,0,Failed password for invalid user webmaster from 173.234.31.186 port 39257 ssh2,failed_password
-1670674302.0,24224,chen,202.100.179.208,0,0,Invalid user chen from 202.100.179.208,no label
 1670674302.0,24224,,202.100.179.208,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=202.100.179.208 ,auth_failure
 1670674304.0,24224,chen,202.100.179.208,0,0,Failed password for invalid user chen from 202.100.179.208 port 32484 ssh2,failed_password
 1670674411.0,24227,root,5.36.59.76,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root,auth_failure
 1670674423.0,24227,root,5.36.59.76,0,1,Failed password for root from 5.36.59.76 port 42393 ssh2,failed_password
-1670674436.0,24227,root,5.36.59.76,0,1,message repeated 5 times: [ Failed password for root from 5.36.59.76 port 42393 ssh2],message_repeated
+1670674436.0,24227,root,5.36.59.76,0,1,message repeated 5 times: [ Failed password for root from 5.36.59.76 port 42393 ssh2],failed_password
 1670674436.0,24227,root,5.36.59.76,0,1,PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root,auth_failure
 1670675270.0,24235,root,112.95.230.3,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root,auth_failure
 1670675272.0,24235,root,112.95.230.3,0,1,Failed password for root from 112.95.230.3 port 45378 ssh2,failed_password
@@ -24,7 +22,6 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670675280.0,24241,root,112.95.230.3,0,1,Failed password for root from 112.95.230.3 port 50999 ssh2,failed_password
 1670675281.0,24243,root,112.95.230.3,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root,auth_failure
 1670675283.0,24243,root,112.95.230.3,0,1,Failed password for root from 112.95.230.3 port 52660 ssh2,failed_password
-1670675283.0,24245,pgadmin,112.95.230.3,0,0,Invalid user pgadmin from 112.95.230.3,no label
 1670675283.0,24245,,112.95.230.3,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3 ,auth_failure
 1670675285.0,24245,pgadmin,112.95.230.3,0,0,Failed password for invalid user pgadmin from 112.95.230.3 port 54087 ssh2,failed_password
 1670675286.0,24247,root,112.95.230.3,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root,auth_failure
@@ -45,7 +42,6 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670675303.0,24261,root,112.95.230.3,0,1,Failed password for root from 112.95.230.3 port 39041 ssh2,failed_password
 1670675303.0,24263,root,112.95.230.3,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root,auth_failure
 1670675305.0,24263,root,112.95.230.3,0,1,Failed password for root from 112.95.230.3 port 40388 ssh2,failed_password
-1670675305.0,24265,utsims,112.95.230.3,0,0,Invalid user utsims from 112.95.230.3,no label
 1670675305.0,24265,,112.95.230.3,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3 ,auth_failure
 1670675308.0,24265,utsims,112.95.230.3,0,0,Failed password for invalid user utsims from 112.95.230.3 port 41506 ssh2,failed_password
 1670675308.0,24267,root,112.95.230.3,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root,auth_failure
@@ -84,7 +80,6 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670675663.0,24299,root,123.235.32.19,0,1,Failed password for root from 123.235.32.19 port 57100 ssh2,failed_password
 1670675673.0,24301,,123.235.32.19,0,0,Did not receive identification string from 123.235.32.19,no_identification
 1670675715.0,24303,,177.79.82.136,0,0,Did not receive identification string from 177.79.82.136,no_identification
-1670676169.0,24318,inspur,183.136.162.51,0,0,Invalid user inspur from 183.136.162.51,no label
 1670676169.0,24318,,183.136.162.51,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.136.162.51 ,auth_failure
 1670676171.0,24318,inspur,183.136.162.51,0,0,Failed password for invalid user inspur from 183.136.162.51 port 55204 ssh2,failed_password
 1670676480.0,24321,,191.210.223.172,0,0,reverse mapping checking getaddrinfo for 191-210-223-172.user.vivozap.com.br [191.210.223.172] failed - POSSIBLE BREAK-IN ATTEMPT!,break_in_attempt
@@ -94,34 +89,21 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670676672.0,24324,support,195.154.37.122,0,0,reverse mapping checking getaddrinfo for 195-154-37-122.rev.poneytelecom.eu [195.154.37.122] failed - POSSIBLE BREAK-IN ATTEMPT! -- Invalid user support from 195.154.37.122,break_in_attempt
 1670676672.0,24324,,195.154.37.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.37.122 ,auth_failure
 1670676675.0,24324,support,195.154.37.122,0,0,Failed password for invalid user support from 195.154.37.122 port 56539 ssh2,failed_password
-1670676675.0,24324,,195.154.37.122,0,0,error: Received disconnect from 195.154.37.122: 3: com.jcraft.jsch.JSchException: Auth fail [preauth],no label
 1670676677.0,24326,,195.154.37.122,0,0,reverse mapping checking getaddrinfo for 195-154-37-122.rev.poneytelecom.eu [195.154.37.122] failed - POSSIBLE BREAK-IN ATTEMPT!,break_in_attempt
 1670676678.0,24326,uucp,195.154.37.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.37.122  user=uucp,auth_failure
 1670676680.0,24326,uucp,195.154.37.122,0,0,Failed password for uucp from 195.154.37.122 port 59266 ssh2,failed_password
-1670676680.0,24326,,195.154.37.122,0,0,error: Received disconnect from 195.154.37.122: 3: com.jcraft.jsch.JSchException: Auth fail [preauth],no label
-1670676955.0,24331,test,52.80.34.196,0,0,Invalid user test from 52.80.34.196,no label
 1670676962.0,24331,test,52.80.34.196,0,0,Failed password for invalid user test from 52.80.34.196 port 36060 ssh2,failed_password
 1670676973.0,24333,,103.207.39.165,0,0,Did not receive identification string from 103.207.39.165,no_identification
-1670676974.0,24334,support,103.207.39.165,0,0,Invalid user support from 103.207.39.165,no label
 1670676974.0,24334,,103.207.39.165,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.207.39.165 ,auth_failure
 1670676975.0,24334,support,103.207.39.165,0,0,Failed password for invalid user support from 103.207.39.165 port 58158 ssh2,failed_password
-1670676975.0,24334,,103.207.39.165,0,0,Received disconnect from 103.207.39.165: 11: Closed due to user request. [preauth],no label
-1670677721.0,24338,inspur,175.102.13.6,0,0,Invalid user inspur from 175.102.13.6,no label
 1670677721.0,24338,,175.102.13.6,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=175.102.13.6 ,auth_failure
 1670677723.0,24338,inspur,175.102.13.6,0,0,Failed password for invalid user inspur from 175.102.13.6 port 47130 ssh2,failed_password
-1670678672.0,24361, 0101,5.188.10.180,0,0,Invalid user  0101 from 5.188.10.180,no label
 1670678672.0,24361,,5.188.10.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 ,auth_failure
 1670678675.0,24361,,5.188.10.180,0,0,Failed password for invalid user  0101 from 5.188.10.180 port 36279 ssh2,failed_password
-1670678680.0,24363,0,5.188.10.180,0,0,Invalid user 0 from 5.188.10.180,no label
-1670678680.0,24363,0,5.188.10.180,0,0,Failed none for invalid user 0 from 5.188.10.180 port 49811 ssh2,no label
 1670678683.0,24363,,5.188.10.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 ,auth_failure
 1670678685.0,24363,0,5.188.10.180,0,0,Failed password for invalid user 0 from 5.188.10.180 port 49811 ssh2,failed_password
-1670678690.0,24365,1234,5.188.10.180,0,0,Invalid user 1234 from 5.188.10.180,no label
 1670678690.0,24365,,5.188.10.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 ,auth_failure
 1670678692.0,24365,1234,5.188.10.180,0,0,Failed password for invalid user 1234 from 5.188.10.180 port 45541 ssh2,failed_password
-1670678698.0,24367,admin,5.188.10.180,0,0,Invalid user admin from 5.188.10.180,no label
-1670678698.0,24367,admin,5.188.10.180,0,0,Failed none for invalid user admin from 5.188.10.180 port 52631 ssh2,no label
-1670678706.0,24369,admin,5.188.10.180,0,0,Invalid user admin from 5.188.10.180,no label
 1670678706.0,24369,,5.188.10.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 ,auth_failure
 1670678708.0,24369,admin,5.188.10.180,0,0,Failed password for invalid user admin from 5.188.10.180 port 60682 ssh2,failed_password
 1670678711.0,24369,admin,5.188.10.180,0,0,Failed password for invalid user admin from 5.188.10.180 port 60682 ssh2,failed_password
@@ -129,7 +111,6 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670678718.0,24369,admin,5.188.10.180,0,0,Failed password for invalid user admin from 5.188.10.180 port 60682 ssh2,failed_password
 1670678721.0,24369,admin,5.188.10.180,0,0,Failed password for invalid user admin from 5.188.10.180 port 60682 ssh2,failed_password
 1670678722.0,24369,,5.188.10.180,0,0,PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 ,auth_failure
-1670678727.0,24371,admin,5.188.10.180,0,0,Invalid user admin from 5.188.10.180,no label
 1670678727.0,24371,,5.188.10.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 ,auth_failure
 1670678728.0,24371,admin,5.188.10.180,0,0,Failed password for invalid user admin from 5.188.10.180 port 59647 ssh2,failed_password
 1670678732.0,24371,admin,5.188.10.180,0,0,Failed password for invalid user admin from 5.188.10.180 port 59647 ssh2,failed_password
@@ -137,51 +118,37 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670678738.0,24371,admin,5.188.10.180,0,0,Failed password for invalid user admin from 5.188.10.180 port 59647 ssh2,failed_password
 1670678741.0,24371,admin,5.188.10.180,0,0,Failed password for invalid user admin from 5.188.10.180 port 59647 ssh2,failed_password
 1670678741.0,24371,,5.188.10.180,0,0,PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 ,auth_failure
-1670678748.0,24373,admin,5.188.10.180,0,0,Invalid user admin from 5.188.10.180,no label
 1670678748.0,24373,,5.188.10.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 ,auth_failure
 1670678750.0,24373,admin,5.188.10.180,0,0,Failed password for invalid user admin from 5.188.10.180 port 56345 ssh2,failed_password
-1670678758.0,24375,default,5.188.10.180,0,0,Invalid user default from 5.188.10.180,no label
 1670678758.0,24375,,5.188.10.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 ,auth_failure
 1670678760.0,24375,default,5.188.10.180,0,0,Failed password for invalid user default from 5.188.10.180 port 41538 ssh2,failed_password
 1670678763.0,24375,default,5.188.10.180,0,0,Failed password for invalid user default from 5.188.10.180 port 41538 ssh2,failed_password
 1670678764.0,24375,,5.188.10.180,0,0,PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 ,auth_failure
 1670678769.0,24377,ftp,5.188.10.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180  user=ftp,auth_failure
 1670678772.0,24377,ftp,5.188.10.180,0,0,Failed password for ftp from 5.188.10.180 port 54715 ssh2,failed_password
-1670678782.0,24379,guest,5.188.10.180,0,0,Invalid user guest from 5.188.10.180,no label
 1670678782.0,24379,,5.188.10.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 ,auth_failure
 1670678784.0,24379,guest,5.188.10.180,0,0,Failed password for invalid user guest from 5.188.10.180 port 47337 ssh2,failed_password
 1670678800.0,24383,,5.188.10.180,0,0,Did not receive identification string from 5.188.10.180,no_identification
 1670679203.0,24384,,103.207.39.212,0,0,Did not receive identification string from 103.207.39.212,no_identification
-1670679204.0,24385,support,103.207.39.212,0,0,Invalid user support from 103.207.39.212,no label
 1670679204.0,24385,,103.207.39.212,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.207.39.212 ,auth_failure
 1670679206.0,24385,support,103.207.39.212,0,0,Failed password for invalid user support from 103.207.39.212 port 52644 ssh2,failed_password
-1670679206.0,24385,,103.207.39.212,0,0,Received disconnect from 103.207.39.212: 11: Closed due to user request. [preauth],no label
 1670679207.0,24387,uucp,103.207.39.212,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.207.39.212  user=uucp,auth_failure
 1670679209.0,24387,uucp,103.207.39.212,0,0,Failed password for uucp from 103.207.39.212 port 51528 ssh2,failed_password
-1670679209.0,24387,,103.207.39.212,0,0,Received disconnect from 103.207.39.212: 11: Closed due to user request. [preauth],no label
-1670679209.0,24389,admin,103.207.39.212,0,0,Invalid user admin from 103.207.39.212,no label
 1670679209.0,24389,,103.207.39.212,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.207.39.212 ,auth_failure
 1670679211.0,24389,admin,103.207.39.212,0,0,Failed password for invalid user admin from 103.207.39.212 port 58447 ssh2,failed_password
-1670679211.0,24389,,103.207.39.212,0,0,Received disconnect from 103.207.39.212: 11: Closed due to user request. [preauth],no label
 1670679587.0,24408,root,106.5.5.195,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.5.5.195  user=root,auth_failure
 1670679589.0,24408,root,106.5.5.195,0,1,Failed password for root from 106.5.5.195 port 50719 ssh2,failed_password
-1670679599.0,24408,root,106.5.5.195,0,1,message repeated 5 times: [ Failed password for root from 106.5.5.195 port 50719 ssh2],message_repeated
+1670679599.0,24408,root,106.5.5.195,0,1,message repeated 5 times: [ Failed password for root from 106.5.5.195 port 50719 ssh2],failed_password
 1670679599.0,24408,root,106.5.5.195,0,1,PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.5.5.195  user=root,auth_failure
-1670679860.0,24410,matlab,52.80.34.196,0,0,Invalid user matlab from 52.80.34.196,no label
 1670679867.0,24410,matlab,52.80.34.196,0,0,Failed password for invalid user matlab from 52.80.34.196 port 46199 ssh2,failed_password
 1670681086.0,24414,,188.132.244.89,0,0,Did not receive identification string from 188.132.244.89,no_identification
-1670681243.0,24415,0,185.190.58.151,0,0,Invalid user 0 from 185.190.58.151,no label
-1670681243.0,24415,0,185.190.58.151,0,0,Failed none for invalid user 0 from 185.190.58.151 port 55495 ssh2,no label
-1670681276.0,24417,123,185.190.58.151,0,0,Invalid user 123 from 185.190.58.151,no label
 1670681276.0,24417,,185.190.58.151,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 ,auth_failure
 1670681278.0,24417,123,185.190.58.151,0,0,Failed password for invalid user 123 from 185.190.58.151 port 48700 ssh2,failed_password
-1670681318.0,24419,admin,185.190.58.151,0,0,Invalid user admin from 185.190.58.151,no label
 1670681318.0,24419,,185.190.58.151,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 ,auth_failure
 1670681320.0,24419,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 49673 ssh2,failed_password
 1670681327.0,24419,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 49673 ssh2,failed_password
 1670681334.0,24419,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 49673 ssh2,failed_password
 1670681339.0,24419,,185.190.58.151,0,0,PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 ,auth_failure
-1670681379.0,24421,admin,185.190.58.151,0,0,Invalid user admin from 185.190.58.151,no label
 1670681379.0,24421,,185.190.58.151,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 ,auth_failure
 1670681382.0,24421,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 41650 ssh2,failed_password
 1670681396.0,24421,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 41650 ssh2,failed_password
@@ -189,139 +156,83 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670681411.0,24421,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 41650 ssh2,failed_password
 1670681419.0,24421,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 41650 ssh2,failed_password
 1670681432.0,24421,,185.190.58.151,0,0,PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 ,auth_failure
-1670681460.0,24437,admin,185.190.58.151,0,0,Invalid user admin from 185.190.58.151,no label
 1670681460.0,24437,,185.190.58.151,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 ,auth_failure
 1670681463.0,24437,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 44155 ssh2,failed_password
 1670681471.0,24437,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 44155 ssh2,failed_password
 1670681478.0,24437,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 44155 ssh2,failed_password
-1670681480.0,24439,admin,103.99.0.122,0,0,Invalid user admin from 103.99.0.122,no label
 1670681480.0,24439,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681481.0,24439,admin,103.99.0.122,0,0,Failed password for invalid user admin from 103.99.0.122 port 55177 ssh2,failed_password
-1670681482.0,24439,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681483.0,24441,support,103.99.0.122,0,0,Invalid user support from 103.99.0.122,no label
 1670681483.0,24441,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681485.0,24441,support,103.99.0.122,0,0,Failed password for invalid user support from 103.99.0.122 port 57317 ssh2,failed_password
-1670681486.0,24441,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681486.0,24443,user,103.99.0.122,0,0,Invalid user user from 103.99.0.122,no label
 1670681486.0,24443,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681486.0,24437,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 44155 ssh2,failed_password
 1670681488.0,24443,user,103.99.0.122,0,0,Failed password for invalid user user from 103.99.0.122 port 62581 ssh2,failed_password
-1670681488.0,24443,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670681489.0,24445,root,103.99.0.122,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=root,auth_failure
 1670681491.0,24445,root,103.99.0.122,0,1,Failed password for root from 103.99.0.122 port 49486 ssh2,failed_password
-1670681491.0,24445,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681492.0,24447,1234,103.99.0.122,0,0,Invalid user 1234 from 103.99.0.122,no label
 1670681492.0,24447,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681494.0,24447,1234,103.99.0.122,0,0,Failed password for invalid user 1234 from 103.99.0.122 port 53950 ssh2,failed_password
-1670681494.0,24447,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670681494.0,24437,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 44155 ssh2,failed_password
 1670681495.0,24449,root,103.99.0.122,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=root,auth_failure
 1670681497.0,24449,root,103.99.0.122,0,1,Failed password for root from 103.99.0.122 port 58123 ssh2,failed_password
-1670681498.0,24449,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681499.0,24451,anonymous,103.99.0.122,0,0,Invalid user anonymous from 103.99.0.122,no label
 1670681499.0,24451,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681500.0,24451,anonymous,103.99.0.122,0,0,Failed password for invalid user anonymous from 103.99.0.122 port 54051 ssh2,failed_password
-1670681501.0,24451,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681501.0,24453,admin,103.99.0.122,0,0,Invalid user admin from 103.99.0.122,no label
 1670681501.0,24453,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681501.0,24437,,185.190.58.151,0,0,PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 ,auth_failure
 1670681504.0,24453,admin,103.99.0.122,0,0,Failed password for invalid user admin from 103.99.0.122 port 57750 ssh2,failed_password
-1670681504.0,24453,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681505.0,24456,ubnt,103.99.0.122,0,0,Invalid user ubnt from 103.99.0.122,no label
 1670681505.0,24456,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681507.0,24456,ubnt,103.99.0.122,0,0,Failed password for invalid user ubnt from 103.99.0.122 port 60608 ssh2,failed_password
-1670681507.0,24456,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670681508.0,24458,uucp,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=uucp,auth_failure
 1670681510.0,24458,uucp,103.99.0.122,0,0,Failed password for uucp from 103.99.0.122 port 64009 ssh2,failed_password
-1670681510.0,24458,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670681511.0,24460,sshd,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=sshd,auth_failure
 1670681512.0,24460,sshd,103.99.0.122,0,0,Failed password for sshd from 103.99.0.122 port 51359 ssh2,failed_password
-1670681512.0,24460,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681513.0,24462,admin,103.99.0.122,0,0,Invalid user admin from 103.99.0.122,no label
 1670681513.0,24462,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681515.0,24462,admin,103.99.0.122,0,0,Failed password for invalid user admin from 103.99.0.122 port 54739 ssh2,failed_password
-1670681516.0,24462,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681516.0,24464,cisco,103.99.0.122,0,0,Invalid user cisco from 103.99.0.122,no label
 1670681516.0,24464,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681517.0,24464,cisco,103.99.0.122,0,0,Failed password for invalid user cisco from 103.99.0.122 port 58309 ssh2,failed_password
-1670681518.0,24464,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681518.0,24467,test,103.99.0.122,0,0,Invalid user test from 103.99.0.122,no label
 1670681518.0,24467,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681520.0,24467,test,103.99.0.122,0,0,Failed password for invalid user test from 103.99.0.122 port 60250 ssh2,failed_password
-1670681520.0,24467,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681521.0,24469,guest,103.99.0.122,0,0,Invalid user guest from 103.99.0.122,no label
 1670681521.0,24469,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681523.0,24469,guest,103.99.0.122,0,0,Failed password for invalid user guest from 103.99.0.122 port 63270 ssh2,failed_password
-1670681523.0,24469,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681524.0,24471,user,103.99.0.122,0,0,Invalid user user from 103.99.0.122,no label
 1670681524.0,24471,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681526.0,24471,user,103.99.0.122,0,0,Failed password for invalid user user from 103.99.0.122 port 49813 ssh2,failed_password
-1670681526.0,24471,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681526.0,24473,operator,103.99.0.122,0,0,Invalid user operator from 103.99.0.122,no label
 1670681526.0,24473,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
-1670681528.0,24455,admin,185.190.58.151,0,0,Invalid user admin from 185.190.58.151,no label
 1670681528.0,24455,,185.190.58.151,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 ,auth_failure
 1670681528.0,24473,operator,103.99.0.122,0,0,Failed password for invalid user operator from 103.99.0.122 port 53492 ssh2,failed_password
-1670681529.0,24473,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670681530.0,24455,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 49948 ssh2,failed_password
-1670681530.0,24475,admin,103.99.0.122,0,0,Invalid user admin from 103.99.0.122,no label
 1670681530.0,24475,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681532.0,24475,admin,103.99.0.122,0,0,Failed password for invalid user admin from 103.99.0.122 port 56901 ssh2,failed_password
-1670681532.0,24475,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670681532.0,24477,root,103.99.0.122,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=root,auth_failure
 1670681535.0,24477,root,103.99.0.122,0,1,Failed password for root from 103.99.0.122 port 59841 ssh2,failed_password
-1670681535.0,24477,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681536.0,24479,admin,103.99.0.122,0,0,Invalid user admin from 103.99.0.122,no label
 1670681536.0,24479,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681538.0,24479,admin,103.99.0.122,0,0,Failed password for invalid user admin from 103.99.0.122 port 63168 ssh2,failed_password
-1670681538.0,24479,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681540.0,24481,admin,103.99.0.122,0,0,Invalid user admin from 103.99.0.122,no label
 1670681540.0,24481,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681541.0,24455,admin,185.190.58.151,0,0,Failed password for invalid user admin from 185.190.58.151 port 49948 ssh2,failed_password
 1670681541.0,24481,admin,103.99.0.122,0,0,Failed password for invalid user admin from 103.99.0.122 port 50011 ssh2,failed_password
-1670681541.0,24481,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681542.0,24483,admin,103.99.0.122,0,0,Invalid user admin from 103.99.0.122,no label
 1670681542.0,24483,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681544.0,24483,admin,103.99.0.122,0,0,Failed password for invalid user admin from 103.99.0.122 port 53531 ssh2,failed_password
-1670681544.0,24483,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670681544.0,24485,ftp,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=ftp,auth_failure
 1670681546.0,24485,ftp,103.99.0.122,0,0,Failed password for ftp from 103.99.0.122 port 56079 ssh2,failed_password
 1670681547.0,24455,,185.190.58.151,0,0,PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 ,auth_failure
-1670681547.0,24485,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681548.0,24488,monitor,103.99.0.122,0,0,Invalid user monitor from 103.99.0.122,no label
 1670681548.0,24488,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681550.0,24488,monitor,103.99.0.122,0,0,Failed password for invalid user monitor from 103.99.0.122 port 59812 ssh2,failed_password
-1670681550.0,24488,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681550.0,24490,ftpuser,103.99.0.122,0,0,Invalid user ftpuser from 103.99.0.122,no label
 1670681550.0,24490,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681552.0,24490,ftpuser,103.99.0.122,0,0,Failed password for invalid user ftpuser from 103.99.0.122 port 62891 ssh2,failed_password
-1670681552.0,24490,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681553.0,24492,pi,103.99.0.122,0,0,Invalid user pi from 103.99.0.122,no label
 1670681553.0,24492,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681555.0,24492,pi,103.99.0.122,0,0,Failed password for invalid user pi from 103.99.0.122 port 49289 ssh2,failed_password
-1670681555.0,24492,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681555.0,24494,PlcmSpIp,103.99.0.122,0,0,Invalid user PlcmSpIp from 103.99.0.122,no label
 1670681555.0,24494,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681557.0,24494,PlcmSpIp,103.99.0.122,0,0,Failed password for invalid user PlcmSpIp from 103.99.0.122 port 51966 ssh2,failed_password
-1670681557.0,24494,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681558.0,24497,Management,103.99.0.122,0,0,Invalid user Management from 103.99.0.122,no label
 1670681558.0,24497,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681560.0,24497,Management,103.99.0.122,0,0,Failed password for invalid user Management from 103.99.0.122 port 55028 ssh2,failed_password
-1670681560.0,24497,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670681560.0,24499,root,103.99.0.122,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=root,auth_failure
 1670681562.0,24499,root,103.99.0.122,0,1,Failed password for root from 103.99.0.122 port 57956 ssh2,failed_password
-1670681562.0,24499,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670681563.0,24501,ftpuser,103.99.0.122,0,0,Invalid user ftpuser from 103.99.0.122,no label
 1670681563.0,24501,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670681564.0,24501,ftpuser,103.99.0.122,0,0,Failed password for invalid user ftpuser from 103.99.0.122 port 60836 ssh2,failed_password
-1670681564.0,24501,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670681566.0,24503,,187.141.143.180,0,0,reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!,break_in_attempt
 1670681566.0,24503,root,187.141.143.180,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=root,auth_failure
 1670681568.0,24503,root,187.141.143.180,0,1,Failed password for root from 187.141.143.180 port 33314 ssh2,failed_password
 1670681571.0,24505,,187.141.143.180,0,0,reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!,break_in_attempt
 1670681571.0,24505,root,187.141.143.180,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=root,auth_failure
 1670681573.0,24505,root,187.141.143.180,0,1,Failed password for root from 187.141.143.180 port 34508 ssh2,failed_password
-1670681577.0,24487,api,185.190.58.151,0,0,Invalid user api from 185.190.58.151,no label
 1670681577.0,24487,,185.190.58.151,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 ,auth_failure
 1670681577.0,24507,,187.141.143.180,0,0,reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!,break_in_attempt
 1670681577.0,24507,root,187.141.143.180,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=root,auth_failure
@@ -509,22 +420,17 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670681902.0,24632,,187.141.143.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180 ,auth_failure
 1670681904.0,24632,test,187.141.143.180,0,0,Failed password for invalid user test from 187.141.143.180 port 37598 ssh2,failed_password
 1670681907.0,24636,,103.207.39.16,0,0,Did not receive identification string from 103.207.39.16,no_identification
-1670681907.0,24637,support,103.207.39.16,0,0,Invalid user support from 103.207.39.16,no label
 1670681908.0,24634,deploy,187.141.143.180,0,0,reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT! -- Invalid user deploy from 187.141.143.180,break_in_attempt
 1670681908.0,24634,,187.141.143.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180 ,auth_failure
 1670681908.0,24637,,103.207.39.16,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.207.39.16 ,auth_failure
 1670681910.0,24634,deploy,187.141.143.180,0,0,Failed password for invalid user deploy from 187.141.143.180 port 38606 ssh2,failed_password
 1670681910.0,24637,support,103.207.39.16,0,0,Failed password for invalid user support from 103.207.39.16 port 33310 ssh2,failed_password
-1670681910.0,24637,,103.207.39.16,0,0,Received disconnect from 103.207.39.16: 11: Closed due to user request. [preauth],no label
 1670681911.0,24639,uucp,103.207.39.16,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.207.39.16  user=uucp,auth_failure
 1670681913.0,24639,uucp,103.207.39.16,0,0,Failed password for uucp from 103.207.39.16 port 42435 ssh2,failed_password
-1670681913.0,24639,,103.207.39.16,0,0,Received disconnect from 103.207.39.16: 11: Closed due to user request. [preauth],no label
-1670681913.0,24643,admin,103.207.39.16,0,0,Invalid user admin from 103.207.39.16,no label
 1670681913.0,24643,,103.207.39.16,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.207.39.16 ,auth_failure
 1670681913.0,24641,deploy,187.141.143.180,0,0,reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT! -- Invalid user deploy from 187.141.143.180,break_in_attempt
 1670681913.0,24641,,187.141.143.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180 ,auth_failure
 1670681915.0,24643,admin,103.207.39.16,0,0,Failed password for invalid user admin from 103.207.39.16 port 46723 ssh2,failed_password
-1670681915.0,24643,,103.207.39.16,0,0,Received disconnect from 103.207.39.16: 11: Closed due to user request. [preauth],no label
 1670681915.0,24641,deploy,187.141.143.180,0,0,Failed password for invalid user deploy from 187.141.143.180 port 39710 ssh2,failed_password
 1670681920.0,24645,oralce,187.141.143.180,0,0,reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT! -- Invalid user oralce from 187.141.143.180,break_in_attempt
 1670681920.0,24645,,187.141.143.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180 ,auth_failure
@@ -571,17 +477,11 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670682000.0,24673,cyrus,187.141.143.180,0,0,reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT! -- Invalid user cyrus from 187.141.143.180,break_in_attempt
 1670682000.0,24673,,187.141.143.180,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180 ,auth_failure
 1670682002.0,24673,cyrus,187.141.143.180,0,0,Failed password for invalid user cyrus from 187.141.143.180 port 33574 ssh2,failed_password
-1670682682.0,24676,FILTER,104.192.3.34,0,0,Invalid user FILTER from 104.192.3.34,no label
 1670682682.0,24676,,104.192.3.34,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=104.192.3.34 ,auth_failure
 1670682684.0,24676,FILTER,104.192.3.34,0,0,Failed password for invalid user FILTER from 104.192.3.34 port 33738 ssh2,failed_password
 1670682692.0,24678,root,104.192.3.34,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=104.192.3.34  user=root,auth_failure
 1670682694.0,24678,root,104.192.3.34,0,1,Failed password for root from 104.192.3.34 port 56524 ssh2,failed_password
-1670682740.0,24680,fztu,119.137.62.142,0,0,Accepted password for fztu from 119.137.62.142 port 49116 ssh2,no label
-1670682755.0,24787,matlab,52.80.34.196,0,0,Invalid user matlab from 52.80.34.196,no label
 1670682762.0,24787,matlab,52.80.34.196,0,0,Failed password for invalid user matlab from 52.80.34.196 port 36060 ssh2,failed_password
-1670683506.0,24761,,119.137.62.142,0,0,Received disconnect from 119.137.62.142: 11: disconnected by user,no label
-1670683703.0,24806,0,181.214.87.4,0,0,Invalid user 0 from 181.214.87.4,no label
-1670683703.0,24806,0,181.214.87.4,0,0,Failed none for invalid user 0 from 181.214.87.4 port 51889 ssh2,no label
 1670683712.0,24808,,181.214.87.4,0,0,Did not receive identification string from 181.214.87.4,no_identification
 1670684692.0,24809,root,60.2.12.12,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.2.12.12  user=root,auth_failure
 1670684694.0,24809,root,60.2.12.12,0,1,Failed password for root from 60.2.12.12 port 63646 ssh2,failed_password
@@ -593,7 +493,6 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670684710.0,24815,root,60.2.12.12,0,1,Failed password for root from 60.2.12.12 port 15145 ssh2,failed_password
 1670684719.0,24817,root,60.2.12.12,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.2.12.12  user=root,auth_failure
 1670684722.0,24817,root,60.2.12.12,0,1,Failed password for root from 60.2.12.12 port 20658 ssh2,failed_password
-1670685239.0,24833,admin,119.4.203.64,0,0,Invalid user admin from 119.4.203.64,no label
 1670685239.0,24833,,119.4.203.64,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.4.203.64 ,auth_failure
 1670685241.0,24833,admin,119.4.203.64,0,0,Failed password for invalid user admin from 119.4.203.64 port 2191 ssh2,failed_password
 1670685244.0,24833,admin,119.4.203.64,0,0,Failed password for invalid user admin from 119.4.203.64 port 2191 ssh2,failed_password
@@ -602,15 +501,11 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670685250.0,24833,admin,119.4.203.64,0,0,Failed password for invalid user admin from 119.4.203.64 port 2191 ssh2,failed_password
 1670685253.0,24833,admin,119.4.203.64,0,0,Failed password for invalid user admin from 119.4.203.64 port 2191 ssh2,failed_password
 1670685253.0,24833,,119.4.203.64,0,0,PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.4.203.64 ,auth_failure
-1670685661.0,24841,matlab,52.80.34.196,0,0,Invalid user matlab from 52.80.34.196,no label
 1670685669.0,24841,matlab,52.80.34.196,0,0,Failed password for invalid user matlab from 52.80.34.196 port 36060 ssh2,failed_password
-1670686347.0,24844,inspur,183.136.162.51,0,0,Invalid user inspur from 183.136.162.51,no label
 1670686347.0,24844,,183.136.162.51,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.136.162.51 ,auth_failure
 1670686350.0,24844,inspur,183.136.162.51,0,0,Failed password for invalid user inspur from 183.136.162.51 port 26396 ssh2,failed_password
-1670687667.0,24868,zhangyan,183.62.140.253,0,0,Invalid user zhangyan from 183.62.140.253,no label
 1670687667.0,24868,,183.62.140.253,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253 ,auth_failure
 1670687669.0,24868,zhangyan,183.62.140.253,0,0,Failed password for invalid user zhangyan from 183.62.140.253 port 33521 ssh2,failed_password
-1670687669.0,24870,dff,183.62.140.253,0,0,Invalid user dff from 183.62.140.253,no label
 1670687669.0,24870,,183.62.140.253,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253 ,auth_failure
 1670687671.0,24870,dff,183.62.140.253,0,0,Failed password for invalid user dff from 183.62.140.253 port 33902 ssh2,failed_password
 1670687671.0,24872,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
@@ -650,7 +545,6 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670687705.0,24912,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670687707.0,24912,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 40631 ssh2,failed_password
 1670687707.0,24917,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
-1670687707.0,24914,cheng,202.100.179.208,0,0,Invalid user cheng from 202.100.179.208,no label
 1670687707.0,24914,,202.100.179.208,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=202.100.179.208 ,auth_failure
 1670687709.0,24917,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 41083 ssh2,failed_password
 1670687709.0,24919,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
@@ -682,27 +576,20 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670687737.0,24944,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 46273 ssh2,failed_password
 1670687737.0,24947,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670687739.0,24947,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 46626 ssh2,failed_password
-1670687739.0,24949,oracle,183.62.140.253,0,0,Invalid user oracle from 183.62.140.253,no label
 1670687739.0,24949,,183.62.140.253,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253 ,auth_failure
 1670687741.0,24949,oracle,183.62.140.253,0,0,Failed password for invalid user oracle from 183.62.140.253 port 47098 ssh2,failed_password
-1670687741.0,24951,test,183.62.140.253,0,0,Invalid user test from 183.62.140.253,no label
 1670687741.0,24951,,183.62.140.253,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253 ,auth_failure
 1670687743.0,24951,test,183.62.140.253,0,0,Failed password for invalid user test from 183.62.140.253 port 47409 ssh2,failed_password
-1670687743.0,24953,oracle,183.62.140.253,0,0,Invalid user oracle from 183.62.140.253,no label
 1670687743.0,24953,,183.62.140.253,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253 ,auth_failure
 1670687745.0,24953,oracle,183.62.140.253,0,0,Failed password for invalid user oracle from 183.62.140.253 port 47782 ssh2,failed_password
-1670687745.0,24955,ubuntu,183.62.140.253,0,0,Invalid user ubuntu from 183.62.140.253,no label
 1670687745.0,24955,,183.62.140.253,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253 ,auth_failure
 1670687747.0,24955,ubuntu,183.62.140.253,0,0,Failed password for invalid user ubuntu from 183.62.140.253 port 48168 ssh2,failed_password
 1670687747.0,24957,git,183.62.140.253,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=git,auth_failure
 1670687749.0,24957,git,183.62.140.253,0,0,Failed password for git from 183.62.140.253 port 48527 ssh2,failed_password
-1670687749.0,24959,boot,183.62.140.253,0,0,Invalid user boot from 183.62.140.253,no label
 1670687749.0,24959,,183.62.140.253,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253 ,auth_failure
 1670687751.0,24959,boot,183.62.140.253,0,0,Failed password for invalid user boot from 183.62.140.253 port 48976 ssh2,failed_password
-1670687752.0,24962,123456,183.62.140.253,0,0,Invalid user 123456 from 183.62.140.253,no label
 1670687752.0,24962,,183.62.140.253,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253 ,auth_failure
 1670687754.0,24962,123456,183.62.140.253,0,0,Failed password for invalid user 123456 from 183.62.140.253 port 49425 ssh2,failed_password
-1670687754.0,24964,123,183.62.140.253,0,0,Invalid user 123 from 183.62.140.253,no label
 1670687754.0,24964,,183.62.140.253,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253 ,auth_failure
 1670687756.0,24964,123,183.62.140.253,0,0,Failed password for invalid user 123 from 183.62.140.253 port 49870 ssh2,failed_password
 1670687756.0,24966,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
@@ -992,7 +879,6 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670688054.0,25286,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688056.0,25286,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 50655 ssh2,failed_password
 1670688056.0,25289,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
-1670688057.0,25283,sandeep,88.147.143.242,0,0,Invalid user sandeep from 88.147.143.242,no label
 1670688057.0,25283,,88.147.143.242,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=88.147.143.242 ,auth_failure
 1670688058.0,25289,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 50953 ssh2,failed_password
 1670688058.0,25291,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
@@ -1143,113 +1029,86 @@ timestamp,process_id,username,ip,is_private,is_root,message,label
 1670688214.0,25446,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688216.0,25446,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 51867 ssh2,failed_password
 1670688216.0,25450,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
-1670688217.0,25448,admin,103.99.0.122,0,0,Invalid user admin from 103.99.0.122,no label
 1670688217.0,25448,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670688218.0,25450,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 52289 ssh2,failed_password
 1670688218.0,25453,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688219.0,25448,admin,103.99.0.122,0,0,Failed password for invalid user admin from 103.99.0.122 port 60150 ssh2,failed_password
-1670688220.0,25448,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670688221.0,25453,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 52762 ssh2,failed_password
-1670688221.0,25455,support,103.99.0.122,0,0,Invalid user support from 103.99.0.122,no label
 1670688221.0,25455,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670688223.0,25455,support,103.99.0.122,0,0,Failed password for invalid user support from 103.99.0.122 port 60735 ssh2,failed_password
-1670688224.0,25455,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670688225.0,25459,user,103.99.0.122,0,0,Invalid user user from 103.99.0.122,no label
 1670688225.0,25459,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670688228.0,25459,user,103.99.0.122,0,0,Failed password for invalid user user from 103.99.0.122 port 61269 ssh2,failed_password
-1670688228.0,25459,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670688230.0,25461,root,103.99.0.122,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=root,auth_failure
 1670688231.0,25457,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688231.0,25463,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688232.0,25461,root,103.99.0.122,0,1,Failed password for root from 103.99.0.122 port 61906 ssh2,failed_password
-1670688232.0,25461,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670688233.0,25457,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 53245 ssh2,failed_password
 1670688233.0,25463,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 55138 ssh2,failed_password
 1670688233.0,25468,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
-1670688234.0,25465,1234,103.99.0.122,0,0,Invalid user 1234 from 103.99.0.122,no label
 1670688234.0,25465,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670688236.0,25468,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 55557 ssh2,failed_password
 1670688236.0,25470,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688236.0,25465,1234,103.99.0.122,0,0,Failed password for invalid user 1234 from 103.99.0.122 port 62429 ssh2,failed_password
-1670688237.0,25465,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670688238.0,25470,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 55969 ssh2,failed_password
 1670688238.0,25474,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688238.0,25472,root,103.99.0.122,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=root,auth_failure
 1670688240.0,25474,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 56423 ssh2,failed_password
 1670688240.0,25476,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688240.0,25472,root,103.99.0.122,0,1,Failed password for root from 103.99.0.122 port 63012 ssh2,failed_password
-1670688240.0,25472,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670688242.0,25478,anonymous,103.99.0.122,0,0,Invalid user anonymous from 103.99.0.122,no label
 1670688242.0,25478,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670688242.0,25476,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 56779 ssh2,failed_password
 1670688242.0,25480,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688244.0,25478,anonymous,103.99.0.122,0,0,Failed password for invalid user anonymous from 103.99.0.122 port 63514 ssh2,failed_password
-1670688244.0,25478,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670688244.0,25480,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 57223 ssh2,failed_password
 1670688245.0,25482,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688246.0,25482,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 57631 ssh2,failed_password
 1670688246.0,25487,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
-1670688247.0,25484,admin,103.99.0.122,0,0,Invalid user admin from 103.99.0.122,no label
 1670688247.0,25484,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670688248.0,25487,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 57916 ssh2,failed_password
 1670688248.0,25490,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688250.0,25484,admin,103.99.0.122,0,0,Failed password for invalid user admin from 103.99.0.122 port 64031 ssh2,failed_password
-1670688250.0,25484,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670688251.0,25490,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 58365 ssh2,failed_password
 1670688251.0,25494,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
-1670688252.0,25492,ubnt,103.99.0.122,0,0,Invalid user ubnt from 103.99.0.122,no label
 1670688252.0,25492,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670688253.0,25494,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 58869 ssh2,failed_password
 1670688253.0,25497,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688254.0,25492,ubnt,103.99.0.122,0,0,Failed password for invalid user ubnt from 103.99.0.122 port 64908 ssh2,failed_password
-1670688255.0,25492,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670688256.0,25497,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 59303 ssh2,failed_password
 1670688256.0,25501,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688256.0,25499,uucp,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=uucp,auth_failure
 1670688257.0,25501,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 59702 ssh2,failed_password
 1670688258.0,25503,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688258.0,25499,uucp,103.99.0.122,0,0,Failed password for uucp from 103.99.0.122 port 65454 ssh2,failed_password
-1670688258.0,25499,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670688260.0,25503,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 60061 ssh2,failed_password
 1670688260.0,25508,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688261.0,25505,sshd,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=sshd,auth_failure
 1670688263.0,25508,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 60554 ssh2,failed_password
 1670688263.0,25511,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688263.0,25505,sshd,103.99.0.122,0,0,Failed password for sshd from 103.99.0.122 port 49598 ssh2,failed_password
-1670688263.0,25505,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670688265.0,25511,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 32826 ssh2,failed_password
 1670688265.0,25516,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
-1670688265.0,25513,admin,103.99.0.122,0,0,Invalid user admin from 103.99.0.122,no label
 1670688265.0,25513,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670688267.0,25516,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 33233 ssh2,failed_password
 1670688267.0,25513,admin,103.99.0.122,0,0,Failed password for invalid user admin from 103.99.0.122 port 50289 ssh2,failed_password
 1670688267.0,25519,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
-1670688268.0,25513,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670688270.0,25519,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 33665 ssh2,failed_password
 1670688270.0,25523,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
-1670688270.0,25521,cisco,103.99.0.122,0,0,Invalid user cisco from 103.99.0.122,no label
 1670688270.0,25521,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670688272.0,25523,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 34100 ssh2,failed_password
 1670688272.0,25521,cisco,103.99.0.122,0,0,Failed password for invalid user cisco from 103.99.0.122 port 50890 ssh2,failed_password
 1670688272.0,25525,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
-1670688273.0,25521,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
-1670688274.0,25527,test,103.99.0.122,0,0,Invalid user test from 103.99.0.122,no label
 1670688274.0,25527,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670688275.0,25525,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 34642 ssh2,failed_password
 1670688275.0,25530,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
 1670688276.0,25527,test,103.99.0.122,0,0,Failed password for invalid user test from 103.99.0.122 port 51592 ssh2,failed_password
-1670688277.0,25527,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670688277.0,25530,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 35101 ssh2,failed_password
 1670688277.0,25532,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
-1670688278.0,25534,guest,103.99.0.122,0,0,Invalid user guest from 103.99.0.122,no label
 1670688278.0,25534,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670688280.0,25532,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 35545 ssh2,failed_password
 1670688280.0,25534,guest,103.99.0.122,0,0,Failed password for invalid user guest from 103.99.0.122 port 52172 ssh2,failed_password
 1670688280.0,25537,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
-1670688281.0,25534,,103.99.0.122,0,0,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],no label
 1670688281.0,25537,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 36027 ssh2,failed_password
 1670688281.0,25541,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
-1670688282.0,25539,user,103.99.0.122,0,0,Invalid user user from 103.99.0.122,no label
 1670688282.0,25539,,103.99.0.122,0,0,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 ,auth_failure
 1670688283.0,25541,root,183.62.140.253,0,1,Failed password for root from 183.62.140.253 port 36300 ssh2,failed_password
 1670688283.0,25544,root,183.62.140.253,0,1,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root,auth_failure
