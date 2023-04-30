@@ -63,7 +63,17 @@ def stream_file_lines(filename, p):
 
     count = 0
     for line in lines:
-        p.send('topic', key='key', value=line)
+        #p.send('topic', key='key', value=line)
+        p.send('topic', key='key', value=parser.parse(line))
+        '''
+        parsed = parser.parse(line)
+        if parsed is not None:
+            parsed = parsed[4:len(parsed)-1]
+            del parsed[3]
+        
+        parsed = ",".join(parsed)
+        p.send('topic', key='key', value=parsed)
+        '''
         count += 1
         print(f"Sent {count}")
         sleep(2)
