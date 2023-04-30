@@ -45,7 +45,7 @@ def to_dict(filename):
             log_line = log_line.strip()
             line_dict = parser.parse(log_line)  # Useful for returning single row of data
 
-        if parsed_data := parser.get():   # Useful for returning all of data
+        if parsed_data := parser.get():  # Useful for returning all of data
             return parsed_data
 
         # dataframe = parser.get_as_dataframe()  # Useful for returning all data in form of dataframe
@@ -54,15 +54,39 @@ def to_dict(filename):
 
 
 def stream_file_lines(filename, p):
-    arr_dict = to_dict(filename)
+    # arr_dict = to_dict(filename)
 
+    parser = LogParser()
+
+    f = open(filename)
+    lines = f.readlines()
+
+    count = 0
+    for line in lines:
+        # p.send('topic', key='key', value=line)
+        p.send('topic', key='key', value=parser.parse(line))
+        '''
+        parsed = parser.parse(line)
+        if parsed is not None:
+            parsed = parsed[4:len(parsed)-1]
+            del parsed[3]
+
+        parsed = ",".join(parsed)
+        p.send('topic', key='key', value=parsed)
+        '''
+        count += 1
+        print(f"Sent {count}")
+        sleep(2)
+
+    '''
     for obj in arr_dict:
 
         print(obj)
-        p.send('ssh', key='', value=obj)
+        p.send('ssh', key='key', value=obj)
 
         # This adjusts the rate at which the data is sent. Use a slower rate for testing your code.
         sleep(1)
+    '''
 
 
 if __name__ == '__main__':
@@ -75,4 +99,4 @@ if __name__ == '__main__':
 
     # Top level call to stream the data to kafka topic. Provide the path to the data. Use a smaller data file for
     # testing.
-    stream_file_lines("assets/log_file.log", producer)
+    stream_file_lines("assets/tmp_log.log", producer)
