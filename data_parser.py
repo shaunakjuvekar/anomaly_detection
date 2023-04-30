@@ -101,9 +101,9 @@ class LogParser:
     @staticmethod
     def _is_root(line):
         if line.find("root") != -1:
-            return "1"
+            return 1
         else:
-            return "0"
+            return 0
 
     @staticmethod
     def _parse_process_id(line):
@@ -255,7 +255,7 @@ class LogParser:
 
             self.logs.append(log)
 
-            return dict_val
+            return log
 
         return None
 
