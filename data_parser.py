@@ -151,8 +151,12 @@ class LogParser:
         return labels
 
     def get_class(self, log):
-        if (log['label'] == "break_in_attempt") or (log['username'] != 'root' and
-                                                    log['failure_count_in_last_60_mins'] > self.failure_threshold):
+        if log['label'] == "break_in_attempt":
+            log.update({"class": 1})
+        elif log['username'] != 'root' and log['failure_count_in_last_60_mins'] > self.failure_threshold:
+            log.update({"class": 1})
+        elif (log['username'] == 'root' and log['failure_count_in_last_15_mins'] > self.failure_threshold and
+              log['label'] in ['auth_failure', 'failed_password'] and log["time_since_last_failure_of_same_type"] < 2):
             log.update({"class": 1})
         else:
             log.update({"class": 0})
@@ -203,6 +207,7 @@ class LogParser:
                     if sorted_ts:
                         fail_hist["time_since_last_failure"] = timestamp - sorted_ts[0]
 
+                        update_counter = 0
                         for ts in sorted_ts:
                             if self.log_map[ip][ts]["is_failure"] == 0:
                                 continue
@@ -210,6 +215,8 @@ class LogParser:
                             if self.log_map[ip][ts]["label"] == label:
                                 if fail_hist["time_since_last_failure_of_same_type"] == 0:
                                     fail_hist["time_since_last_failure_of_same_type"] = timestamp - ts
+
+                            time_diff = timestamp - ts
 
                             if timestamp - ts <= 15 * 60 and fail_hist["failure_count_in_last_15_mins"] == 0:
                                 fail_hist["failure_count_in_last_15_mins"] = self.log_map[ip][ts][
@@ -231,27 +238,34 @@ class LogParser:
                                 break
 
                 dict_val.update(fail_hist)
-                dict_val.update(self._label_encoder(label))
-                dict_val = self.get_class(dict_val)
-
                 self.log_map[ip][timestamp] = dict_val
             else:
-                dict_val.update(fail_hist)
-                dict_val.update(self._label_encoder(label))
-                dict_val = self.get_class(dict_val)
-
                 if is_failure:
+                    fail_hist = {
+                        "time_since_last_failure": 0,
+                        "time_since_last_failure_of_same_type": 0,
+                        "failure_count_in_last_15_mins": 1,
+                        "failure_count_in_last_30_mins": 1,
+                        "failure_count_in_last_60_mins": 1
+                    }
+                    dict_val.update(fail_hist)
                     self.log_map[ip] = {timestamp: dict_val}
+                else:
+                    dict_val.update(fail_hist)
+
+            dict_val.update(self._label_encoder(label))
+            dict_val = self.get_class(dict_val)
 
             # print(dict_val)
             log = [timestamp, proc_id, username, ip, is_private, is_root, is_failure, fail_hist[
                 "time_since_last_failure"], fail_hist["time_since_last_failure_of_same_type"],
-                fail_hist["failure_count_in_last_15_mins"], fail_hist["failure_count_in_last_30_mins"],
-                fail_hist["failure_count_in_last_60_mins"], dict_val["label_auth_failure"],
-                dict_val["label_break_in_attempt"], dict_val["label_connection_closed"], dict_val["label_disconnect"],
-                dict_val["label_failed_password"], dict_val["label_invalid_user"], dict_val["label_no_label"],
-                dict_val["label_no_identification"], dict_val["class"]
-            ]
+                   fail_hist["failure_count_in_last_15_mins"], fail_hist["failure_count_in_last_30_mins"],
+                   fail_hist["failure_count_in_last_60_mins"], dict_val["label_auth_failure"],
+                   dict_val["label_break_in_attempt"], dict_val["label_connection_closed"],
+                   dict_val["label_disconnect"],
+                   dict_val["label_failed_password"], dict_val["label_invalid_user"], dict_val["label_no_label"],
+                   dict_val["label_no_identification"], dict_val["class"]
+                   ]
 
             self.logs.append(log)
 

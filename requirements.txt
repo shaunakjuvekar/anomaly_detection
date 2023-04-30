@@ -5,3 +5,4 @@ jupyter
 numpy
 tqdm~=4.65.0
 scikit-learn
+matplotlib
