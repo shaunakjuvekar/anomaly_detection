@@ -54,15 +54,30 @@ def to_dict(filename):
 
 
 def stream_file_lines(filename, p):
-    arr_dict = to_dict(filename)
+    #arr_dict = to_dict(filename)
 
+    parser = LogParser()
+
+    f = open(filename)
+    lines = f.readlines()
+
+    count = 0
+    for line in lines:
+        p.send('topic', key='key', value=line)
+        count += 1
+        print(f"Sent {count}")
+        sleep(2)
+
+
+    '''
     for obj in arr_dict:
 
         print(obj)
-        p.send('ssh', key='', value=obj)
+        p.send('ssh', key='key', value=obj)
 
         # This adjusts the rate at which the data is sent. Use a slower rate for testing your code.
         sleep(1)
+    '''
 
 
 if __name__ == '__main__':
@@ -75,4 +90,4 @@ if __name__ == '__main__':
 
     # Top level call to stream the data to kafka topic. Provide the path to the data. Use a smaller data file for
     # testing.
-    stream_file_lines("assets/log_file.log", producer)
+    stream_file_lines("assets/tmp_log.log", producer)
